@@ -9,6 +9,8 @@ image:
   tag: 0.1
   pullPolicy: IfNotPresent
 
+fullnameOverride: "helm-guestbook"
+
 service:
   type: ClusterIP
   port: 80
